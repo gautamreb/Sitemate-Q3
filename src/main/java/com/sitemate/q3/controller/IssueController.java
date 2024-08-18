@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/issues")
+@CrossOrigin(origins = "http://localhost:3000")
 public class IssueController {
 
     private List<Issue> issues = new ArrayList<>();
